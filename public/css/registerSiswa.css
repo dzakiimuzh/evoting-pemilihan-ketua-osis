@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('/font/poppins-semibold.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/font/poppins-regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('/font/poppins-medium.ttf');
+
+}
+
+section {
+    height: 260px;
+
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 25px rgba(41, 41, 41, 0.10);
+
+}
+
+.judul h1 {
+    font-family: poppins-semibold;
+
+}
+
+label,
+.btn {
+    font-family: poppins-medium;
+
+}
+
+.btn {
+    padding: 8px 17px;
+
+}
+
+.custom-file-label {
+    font-family: poppins-regular;
+    font-size: 14px;
+
+}
+
+input {
+    font-family: poppins-regular;
+
+}
+
+.rowInput {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+@media( max-width: 768px ) {
+    
+    .btn {
+        padding: 7px 14px;
+
+    }
+
+}

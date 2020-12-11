@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('/font/poppins-semibold.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/font/poppins-regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('/font/poppins-medium.ttf');
+
+}
+
+section {
+    height: 280px;
+
+}
+
+.nama p {
+    color: #888888;
+    font-family: poppins-regular;
+
+}
+
+.col-md-6 .btn {
+    font-family: poppins-medium;
+    padding: 8px 16px;
+
+}
+
+.judul .col-md-5 h1,
+.col-md-6 .visiMisi h1,
+.col-md-6 .slogan h1 {
+    font-family: poppins-semibold;
+    letter-spacing: .5px;
+
+}
+
+.nama h3 {
+    font-family: poppins-medium;
+
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 25px rgba(41, 41, 41, 0.10);
+    height: 380px;
+    margin-top: 40px;
+    width: 90%;
+
+}
+
+.row {
+    width: 90%;
+
+}
+
+.rowVisi,
+.rowMisi {
+    margin-top: 100px;
+
+}
+
+.isiVisi,
+.isiMisi {
+    font-family: poppins-regular;
+    font-size: 18px;
+    letter-spacing: .5px;
+
+}
+
+.isiMisi {
+    line-height: 20px;
+    margin-top: 20px;
+
+}
+
+.isiVisi {
+    margin-top: 13px;
+
+}
+
+@media(max-width: 768px) {
+    .card {
+        width: 100%;
+
+    }
+
+    .row {
+        width: 95%;
+
+    }
+
+    .judul .col-md-5 h1,
+    .col-md-6 .visiMisi h1,
+    .col-md-6 .slogan h1 {
+        font-size: 32px;
+
+    }
+}

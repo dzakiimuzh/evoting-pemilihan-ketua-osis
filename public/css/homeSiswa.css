@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('/font/poppins-semibold.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/font/poppins-regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('/font/poppins-medium.ttf');
+
+}
+
+body {
+
+    height: 205vh;
+
+}
+
+section {
+    height: 330px;
+
+}
+
+section .container .row:nth-child(3) {
+    margin-top: 50px;
+
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 5px 25px rgba(41, 41, 41, 0.10);
+    height: 450px;
+    margin-top: 40px;
+    width: 90%;
+
+}
+
+.rowOpsi {
+    margin-top: 10px !important;
+
+}
+
+.card-header p {
+    margin: 0;
+    font-family: poppins-medium;
+    letter-spacing: .5px;
+    color: #2b2b2b;
+
+}
+
+.row {
+    width: 90%;
+
+}
+
+.card-header {
+    height: 50px;
+    border: none;
+
+}
+
+.nama h3,
+.btn {
+    font-family: poppins-medium;
+
+}
+
+.btn {
+    padding: 8px 17px;
+
+}
+
+.nama p {
+    font-family: poppins-regular;
+
+}
+
+.judul .col-md-7 h1{
+    font-family: poppins-semibold;
+    letter-spacing: .5px;
+
+}
+
+@media( max-width: 768px ) {
+
+    .card {
+        height: auto;
+        width: 100%;
+
+    }
+
+    body {
+        height: 270vh;
+
+    }
+
+    .judul .col-md-7 h1 {
+        font-size: 28px;
+
+    }
+
+    .row {
+        width: 100%;
+
+    }
+
+    .rowOpsi {
+        margin-bottom: 50px;
+
+    }
+
+    .card img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+}

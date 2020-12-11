@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('/font/poppins-semibold.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/font/poppins-regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('/font/poppins-medium.ttf');
+
+}
+
+section {
+    height: 280px;
+
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 25px rgba(41, 41, 41, 0.10);
+    height: 300px;
+
+}
+
+.judul h1 {
+    font-family: poppins-semibold;
+
+}
+
+.card-header {
+    border: none;
+    color: #2b2b2b;
+
+}
+
+.row .col-md-12 .btn {
+    width: 18%;
+
+}
+
+.card-header p{
+    margin: 0;
+    font-family: poppins-medium;
+    letter-spacing: .5px;
+    color: #2b2b2b;
+
+}
+
+.btn {
+    font-family: poppins-semibold;
+    padding: 8px 17px;
+    letter-spacing: .5px;
+
+}
+
+.card .card-body h1.hasil {
+    font-size: 56px;
+    font-family: poppins-medium;
+    
+}
+
+@media( max-width: 767px ) {
+
+    .container .rowCard .col-md-5:nth-child(2) .card {
+        margin-top: 70px;
+
+    }
+
+    .btnKembali {
+        width: 50% !important;
+        margin-bottom: 50px;
+
+    }
+
+}
